@@ -41,7 +41,7 @@
         <h3>送信内容</h3>
         <table class="table">
             <tr><td>会社名</td><td><%= params["company"] %><td></tr>
-            <tr><td>氏名</td></td><td><%= params["name"] %><td></tr>
+            <tr><td>氏名</td><td><%= params["name"] %><td></tr>
             <tr><td>メール</td><td><%= params["mail"] %><td></tr>
             <tr><td>電話番号</td><td><%= params["tel"] %><td></tr>
             <tr><td>内容</td><td><%= params["content"].gsub(/\r\n|\r|\n/, "<br>") %><td></tr>
